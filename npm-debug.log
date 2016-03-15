@@ -1,0 +1,357 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/ubuntu/.nvm/versions/node/v4.1.1/bin/node',
+1 verbose cli   '/home/ubuntu/.nvm/versions/node/v4.1.1/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'tig' ]
+2 info using npm@2.14.4
+3 info using node@v4.1.1
+4 verbose install initial load of /home/ubuntu/workspace/package.json
+5 warn package.json front-end-dev-test@1.0.0 No repository field.
+6 warn package.json front-end-dev-test@1.0.0 No README data
+7 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/node_modules/angular/package.json
+8 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/node_modules/angular-mocks/package.json
+9 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/node_modules/angular-ui-router/package.json
+10 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/node_modules/angular-utils-pagination/package.json
+11 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/node_modules/babel-core/package.json
+12 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/node_modules/babel-loader/package.json
+13 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/node_modules/babel-preset-es2015/package.json
+14 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/node_modules/babel-preset-stage-2/package.json
+15 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/node_modules/bootstrap/package.json
+16 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/node_modules/css-loader/package.json
+17 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/node_modules/jasmine-core/package.json
+18 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/node_modules/karma/package.json
+19 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/node_modules/karma-chrome-launcher/package.json
+20 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/node_modules/karma-coverage/package.json
+21 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/node_modules/karma-jasmine/package.json
+22 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/node_modules/karma-phantomjs-launcher/package.json
+23 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/node_modules/karma-sourcemap-loader/package.json
+24 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/node_modules/karma-spec-reporter/package.json
+25 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/node_modules/karma-webpack/package.json
+26 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/node_modules/ngstorage/package.json
+27 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/node_modules/node-sass/package.json
+28 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/node_modules/phantomjs/package.json
+29 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/node_modules/protractor/package.json
+30 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/node_modules/raw-loader/package.json
+31 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/node_modules/sass-loader/package.json
+32 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/node_modules/style-loader/package.json
+33 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/node_modules/webpack/package.json
+34 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/node_modules/webpack-dev-server/package.json
+35 info package.json raw-loader@0.5.1 No license field.
+36 info package.json ngstorage@0.3.10 No license field.
+37 verbose readDependencies loading dependencies from /home/ubuntu/workspace/package.json
+38 silly cache add args [ 'tig', null ]
+39 verbose cache add spec tig
+40 silly cache add parsed spec Result {
+40 silly cache add   raw: 'tig',
+40 silly cache add   scope: null,
+40 silly cache add   name: 'tig',
+40 silly cache add   rawSpec: '',
+40 silly cache add   spec: '*',
+40 silly cache add   type: 'range' }
+41 silly addNamed tig@*
+42 verbose addNamed "*" is a valid semver range for tig
+43 silly addNameRange { name: 'tig', range: '*', hasData: false }
+44 silly mapToRegistry name tig
+45 silly mapToRegistry using default registry
+46 silly mapToRegistry registry https://registry.npmjs.org/
+47 silly mapToRegistry uri https://registry.npmjs.org/tig
+48 verbose addNameRange registry:https://registry.npmjs.org/tig not in flight; fetching
+49 verbose request uri https://registry.npmjs.org/tig
+50 verbose request no auth needed
+51 info attempt registry request try #1 at 6:03:04 PM
+52 verbose request id 2d4c070ffc0d6671
+53 http request GET https://registry.npmjs.org/tig
+54 http 200 https://registry.npmjs.org/tig
+55 silly get cb [ 200,
+55 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+55 silly get     etag: '"20ZBJ3YOHI2IHB7X2292EJVPV"',
+55 silly get     'content-type': 'application/json',
+55 silly get     'cache-control': 'max-age=300',
+55 silly get     'content-length': '66469',
+55 silly get     'accept-ranges': 'bytes',
+55 silly get     date: 'Tue, 15 Mar 2016 18:03:05 GMT',
+55 silly get     via: '1.1 varnish',
+55 silly get     age: '0',
+55 silly get     connection: 'keep-alive',
+55 silly get     'x-served-by': 'cache-lcy1130-LCY',
+55 silly get     'x-cache': 'MISS',
+55 silly get     'x-cache-hits': '0',
+55 silly get     'x-timer': 'S1458064984.323805,VS0,VE972',
+55 silly get     vary: 'Accept' } ]
+56 verbose get saving tig to /home/ubuntu/.npm/registry.npmjs.org/tig/.cache.json
+57 silly addNameRange number 2 { name: 'tig', range: '*', hasData: true }
+58 silly addNameRange versions [ 'tig',
+58 silly addNameRange   [ '0.1.0',
+58 silly addNameRange     '0.1.1',
+58 silly addNameRange     '0.1.2',
+58 silly addNameRange     '0.1.4',
+58 silly addNameRange     '0.1.5',
+58 silly addNameRange     '0.1.6',
+58 silly addNameRange     '0.1.7',
+58 silly addNameRange     '0.1.8',
+58 silly addNameRange     '0.1.9',
+58 silly addNameRange     '0.1.10',
+58 silly addNameRange     '0.1.11',
+58 silly addNameRange     '0.1.12',
+58 silly addNameRange     '0.1.13',
+58 silly addNameRange     '0.1.14',
+58 silly addNameRange     '0.1.15',
+58 silly addNameRange     '0.1.16',
+58 silly addNameRange     '0.1.17',
+58 silly addNameRange     '0.1.18',
+58 silly addNameRange     '0.1.19',
+58 silly addNameRange     '0.1.20',
+58 silly addNameRange     '0.1.21',
+58 silly addNameRange     '0.1.22',
+58 silly addNameRange     '0.1.23',
+58 silly addNameRange     '0.1.24',
+58 silly addNameRange     '0.1.25',
+58 silly addNameRange     '0.1.26',
+58 silly addNameRange     '0.1.27',
+58 silly addNameRange     '0.1.28',
+58 silly addNameRange     '0.1.29',
+58 silly addNameRange     '0.1.30',
+58 silly addNameRange     '0.1.31',
+58 silly addNameRange     '0.1.32',
+58 silly addNameRange     '0.1.33',
+58 silly addNameRange     '0.1.34',
+58 silly addNameRange     '0.1.35',
+58 silly addNameRange     '0.1.36',
+58 silly addNameRange     '0.1.37',
+58 silly addNameRange     '0.1.38',
+58 silly addNameRange     '0.1.39',
+58 silly addNameRange     '0.1.40',
+58 silly addNameRange     '0.1.41',
+58 silly addNameRange     '0.1.42',
+58 silly addNameRange     '0.1.43' ] ]
+59 silly addNamed tig@0.1.43
+60 verbose addNamed "0.1.43" is a plain semver version for tig
+61 silly mapToRegistry name tig
+62 silly mapToRegistry using default registry
+63 silly mapToRegistry registry https://registry.npmjs.org/
+64 silly mapToRegistry uri https://registry.npmjs.org/tig
+65 verbose addRemoteTarball https://registry.npmjs.org/tig/-/tig-0.1.43.tgz not in flight; adding
+66 verbose addRemoteTarball [ 'https://registry.npmjs.org/tig/-/tig-0.1.43.tgz',
+66 verbose addRemoteTarball   'd8dba6b8b65cb60d6e5fb397e32a0f8ff3500943' ]
+67 info retry fetch attempt 1 at 6:03:05 PM
+68 info attempt registry request try #1 at 6:03:05 PM
+69 http fetch GET https://registry.npmjs.org/tig/-/tig-0.1.43.tgz
+70 http fetch 200 https://registry.npmjs.org/tig/-/tig-0.1.43.tgz
+71 silly fetchAndShaCheck shasum d8dba6b8b65cb60d6e5fb397e32a0f8ff3500943
+72 verbose addTmpTarball /tmp/npm-2576-95578d20/registry.npmjs.org/tig/-/tig-0.1.43.tgz not in flight; adding
+73 verbose addTmpTarball already have metadata; skipping unpack for tig@0.1.43
+74 silly cache afterAdd tig@0.1.43
+75 verbose afterAdd /home/ubuntu/.npm/tig/0.1.43/package/package.json not in flight; writing
+76 verbose afterAdd /home/ubuntu/.npm/tig/0.1.43/package/package.json written
+77 silly install resolved [ { name: 'tig',
+77 silly install resolved     version: '0.1.43',
+77 silly install resolved     description: 'An abstraction layer to git.',
+77 silly install resolved     main: 'index.js',
+77 silly install resolved     directories: { bin: './bin' },
+77 silly install resolved     repository:
+77 silly install resolved      { type: 'git',
+77 silly install resolved        url: 'git+https://github.com/cchamberlain/tig.git' },
+77 silly install resolved     keywords: [ 'git', 'abstraction', 'development' ],
+77 silly install resolved     author:
+77 silly install resolved      { name: 'Cole Chamberlain',
+77 silly install resolved        email: 'cole.chamberlain@gmail.com',
+77 silly install resolved        url: 'http://chambersoft.github.io' },
+77 silly install resolved     license: 'MIT',
+77 silly install resolved     bugs: { url: 'https://github.com/cchamberlain/tig/issues' },
+77 silly install resolved     homepage: 'https://github.com/cchamberlain/tig',
+77 silly install resolved     scripts: {},
+77 silly install resolved     devDependencies: { 'marked-man': '^0.1.4' },
+77 silly install resolved     bin:
+77 silly install resolved      { tig: 'bin\\tig',
+77 silly install resolved        'tig-build': 'bin\\tig-build',
+77 silly install resolved        'tig-config': 'bin\\tig-config',
+77 silly install resolved        'tig-deploy': 'bin\\tig-deploy',
+77 silly install resolved        'tig-install': 'bin\\tig-install',
+77 silly install resolved        'tig-link': 'bin\\tig-link',
+77 silly install resolved        'tig-login': 'bin\\tig-login',
+77 silly install resolved        'tig-mesh': 'bin\\tig-mesh',
+77 silly install resolved        'tig-publish': 'bin\\tig-publish',
+77 silly install resolved        'tig-run': 'bin\\tig-run',
+77 silly install resolved        'tig-status': 'bin\\tig-status',
+77 silly install resolved        'tig-track': 'bin\\tig-track',
+77 silly install resolved        'tig-upgrade': 'bin\\tig-upgrade' },
+77 silly install resolved     gitHead: '01e9816098b7237570d306e15d3a3c03402982f7',
+77 silly install resolved     _id: 'tig@0.1.43',
+77 silly install resolved     _shasum: 'd8dba6b8b65cb60d6e5fb397e32a0f8ff3500943',
+77 silly install resolved     _from: 'tig@*',
+77 silly install resolved     _npmVersion: '2.11.1',
+77 silly install resolved     _nodeVersion: '0.12.4',
+77 silly install resolved     _npmUser: { name: 'cchamberlain', email: 'cole.chamberlain@gmail.com' },
+77 silly install resolved     dist:
+77 silly install resolved      { shasum: 'd8dba6b8b65cb60d6e5fb397e32a0f8ff3500943',
+77 silly install resolved        tarball: 'http://registry.npmjs.org/tig/-/tig-0.1.43.tgz' },
+77 silly install resolved     maintainers: [ [Object] ],
+77 silly install resolved     _resolved: 'https://registry.npmjs.org/tig/-/tig-0.1.43.tgz' } ]
+78 info install tig@0.1.43 into /home/ubuntu/workspace
+79 info installOne tig@0.1.43
+80 verbose installOne of tig to /home/ubuntu/workspace not in flight; installing
+81 verbose lock using /home/ubuntu/.npm/_locks/tig-c62ce536553f4363.lock for /home/ubuntu/workspace/node_modules/tig
+82 silly install write writing tig 0.1.43 to /home/ubuntu/workspace/node_modules/tig
+83 verbose unbuild node_modules/tig
+84 silly gentlyRm /home/ubuntu/workspace/node_modules/tig is being purged from base /home/ubuntu/workspace
+85 verbose gentlyRm don't care about contents; nuking /home/ubuntu/workspace/node_modules/tig
+86 verbose tar unpack /home/ubuntu/.npm/tig/0.1.43/package.tgz
+87 verbose tar unpacking to /home/ubuntu/workspace/node_modules/tig
+88 silly gentlyRm /home/ubuntu/workspace/node_modules/tig is being purged
+89 verbose gentlyRm don't care about contents; nuking /home/ubuntu/workspace/node_modules/tig
+90 silly gunzTarPerm modes [ '755', '644' ]
+91 silly gunzTarPerm extractEntry package.json
+92 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+93 silly gunzTarPerm extractEntry .npmignore
+94 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+95 silly gunzTarPerm extractEntry README.md
+96 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+97 silly gunzTarPerm extractEntry LICENSE
+98 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+99 silly gunzTarPerm extractEntry index.js
+100 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+101 silly gunzTarPerm extractEntry bin/tig-login
+102 silly gunzTarPerm modified mode [ 'bin/tig-login', 438, 420 ]
+103 silly gunzTarPerm extractEntry bin/tig
+104 silly gunzTarPerm modified mode [ 'bin/tig', 438, 420 ]
+105 silly gunzTarPerm extractEntry bin/tig-config
+106 silly gunzTarPerm modified mode [ 'bin/tig-config', 438, 420 ]
+107 silly gunzTarPerm extractEntry bin/tig-deploy
+108 silly gunzTarPerm modified mode [ 'bin/tig-deploy', 438, 420 ]
+109 silly gunzTarPerm extractEntry bin/tig-install
+110 silly gunzTarPerm modified mode [ 'bin/tig-install', 438, 420 ]
+111 silly gunzTarPerm extractEntry bin/tig-link
+112 silly gunzTarPerm modified mode [ 'bin/tig-link', 438, 420 ]
+113 silly gunzTarPerm extractEntry bin/tig-build
+114 silly gunzTarPerm modified mode [ 'bin/tig-build', 438, 420 ]
+115 silly gunzTarPerm extractEntry bin/tig-mesh
+116 silly gunzTarPerm modified mode [ 'bin/tig-mesh', 438, 420 ]
+117 silly gunzTarPerm extractEntry bin/tig-publish
+118 silly gunzTarPerm modified mode [ 'bin/tig-publish', 438, 420 ]
+119 silly gunzTarPerm extractEntry bin/tig-run
+120 silly gunzTarPerm modified mode [ 'bin/tig-run', 438, 420 ]
+121 silly gunzTarPerm extractEntry bin/tig-status
+122 silly gunzTarPerm modified mode [ 'bin/tig-status', 438, 420 ]
+123 silly gunzTarPerm extractEntry bin/tig-track
+124 silly gunzTarPerm modified mode [ 'bin/tig-track', 438, 420 ]
+125 silly gunzTarPerm extractEntry bin/tig-upgrade
+126 silly gunzTarPerm modified mode [ 'bin/tig-upgrade', 438, 420 ]
+127 silly gunzTarPerm extractEntry etc/tigrc
+128 silly gunzTarPerm modified mode [ 'etc/tigrc', 438, 420 ]
+129 verbose write writing to /home/ubuntu/workspace/node_modules/tig/package.json
+130 info preinstall tig@0.1.43
+131 verbose readDependencies loading dependencies from /home/ubuntu/workspace/node_modules/tig/package.json
+132 verbose readDependencies loading dependencies from /home/ubuntu/workspace/node_modules/tig/package.json
+133 silly install resolved []
+134 verbose about to build /home/ubuntu/workspace/node_modules/tig
+135 info build /home/ubuntu/workspace/node_modules/tig
+136 info linkStuff tig@0.1.43
+137 silly linkStuff tig@0.1.43 has /home/ubuntu/workspace/node_modules as its parent node_modules
+138 verbose linkBins tig@0.1.43
+139 verbose link bins [ { tig: 'bin\\tig',
+139 verbose link bins     'tig-build': 'bin\\tig-build',
+139 verbose link bins     'tig-config': 'bin\\tig-config',
+139 verbose link bins     'tig-deploy': 'bin\\tig-deploy',
+139 verbose link bins     'tig-install': 'bin\\tig-install',
+139 verbose link bins     'tig-link': 'bin\\tig-link',
+139 verbose link bins     'tig-login': 'bin\\tig-login',
+139 verbose link bins     'tig-mesh': 'bin\\tig-mesh',
+139 verbose link bins     'tig-publish': 'bin\\tig-publish',
+139 verbose link bins     'tig-run': 'bin\\tig-run',
+139 verbose link bins     'tig-status': 'bin\\tig-status',
+139 verbose link bins     'tig-track': 'bin\\tig-track',
+139 verbose link bins     'tig-upgrade': 'bin\\tig-upgrade' },
+139 verbose link bins   '/home/ubuntu/workspace/node_modules/.bin',
+139 verbose link bins   false ]
+140 verbose linkMans tig@0.1.43
+141 verbose rebuildBundles tig@0.1.43
+142 verbose unlock done using /home/ubuntu/.npm/_locks/tig-c62ce536553f4363.lock for /home/ubuntu/workspace/node_modules/tig
+143 verbose stack Error: ENOENT: no such file or directory, chmod '/home/ubuntu/workspace/node_modules/tig/bin\tig'
+143 verbose stack     at Error (native)
+144 verbose cwd /home/ubuntu/workspace
+145 error Linux 4.2.0-c9
+146 error argv "/home/ubuntu/.nvm/versions/node/v4.1.1/bin/node" "/home/ubuntu/.nvm/versions/node/v4.1.1/bin/npm" "install" "tig"
+147 error node v4.1.1
+148 error npm  v2.14.4
+149 error path /home/ubuntu/workspace/node_modules/tig/bin\tig
+150 error code ENOENT
+151 error errno -2
+152 error syscall chmod
+153 error enoent ENOENT: no such file or directory, chmod '/home/ubuntu/workspace/node_modules/tig/bin\tig'
+153 error enoent This is most likely not a problem with npm itself
+153 error enoent and is related to npm not being able to find a file.
+154 verbose exit [ -2, true ]
+155 verbose unbuild node_modules/tig
+156 info preuninstall tig@0.1.43
+157 info uninstall tig@0.1.43
+158 verbose unbuild rmStuff tig@0.1.43 from /home/ubuntu/workspace/node_modules
+159 silly gentlyRm /home/ubuntu/workspace/node_modules/.bin/tig is being gently removed
+160 silly gentlyRm verifying /home/ubuntu/workspace is an npm working directory
+161 silly gentlyRm /home/ubuntu/workspace/node_modules/.bin/tig-build is being gently removed
+162 silly gentlyRm verifying /home/ubuntu/workspace is an npm working directory
+163 silly gentlyRm /home/ubuntu/workspace/node_modules/.bin/tig-config is being gently removed
+164 silly gentlyRm verifying /home/ubuntu/workspace is an npm working directory
+165 silly gentlyRm /home/ubuntu/workspace/node_modules/.bin/tig-deploy is being gently removed
+166 silly gentlyRm verifying /home/ubuntu/workspace is an npm working directory
+167 silly gentlyRm /home/ubuntu/workspace/node_modules/.bin/tig-install is being gently removed
+168 silly gentlyRm verifying /home/ubuntu/workspace is an npm working directory
+169 silly gentlyRm /home/ubuntu/workspace/node_modules/.bin/tig-link is being gently removed
+170 silly gentlyRm verifying /home/ubuntu/workspace is an npm working directory
+171 silly gentlyRm /home/ubuntu/workspace/node_modules/.bin/tig-login is being gently removed
+172 silly gentlyRm verifying /home/ubuntu/workspace is an npm working directory
+173 silly gentlyRm /home/ubuntu/workspace/node_modules/.bin/tig-mesh is being gently removed
+174 silly gentlyRm verifying /home/ubuntu/workspace is an npm working directory
+175 silly gentlyRm /home/ubuntu/workspace/node_modules/.bin/tig-publish is being gently removed
+176 silly gentlyRm verifying /home/ubuntu/workspace is an npm working directory
+177 silly gentlyRm /home/ubuntu/workspace/node_modules/.bin/tig-run is being gently removed
+178 silly gentlyRm verifying /home/ubuntu/workspace is an npm working directory
+179 silly gentlyRm /home/ubuntu/workspace/node_modules/.bin/tig-status is being gently removed
+180 silly gentlyRm verifying /home/ubuntu/workspace is an npm working directory
+181 silly gentlyRm /home/ubuntu/workspace/node_modules/.bin/tig-track is being gently removed
+182 silly gentlyRm verifying /home/ubuntu/workspace is an npm working directory
+183 silly gentlyRm /home/ubuntu/workspace/node_modules/.bin/tig-upgrade is being gently removed
+184 silly gentlyRm verifying /home/ubuntu/workspace is an npm working directory
+185 silly gentlyRm containing path /home/ubuntu/workspace is under npm's control, in /home/ubuntu/workspace
+186 silly gentlyRm deletion target /home/ubuntu/workspace/node_modules/.bin/tig is under /home/ubuntu/workspace
+187 verbose gentlyRm vacuuming from /home/ubuntu/workspace/node_modules/.bin/tig up to /home/ubuntu/workspace
+188 silly gentlyRm containing path /home/ubuntu/workspace is under npm's control, in /home/ubuntu/workspace
+189 silly gentlyRm deletion target /home/ubuntu/workspace/node_modules/.bin/tig-build is under /home/ubuntu/workspace
+190 verbose gentlyRm vacuuming from /home/ubuntu/workspace/node_modules/.bin/tig-build up to /home/ubuntu/workspace
+191 silly gentlyRm containing path /home/ubuntu/workspace is under npm's control, in /home/ubuntu/workspace
+192 silly gentlyRm deletion target /home/ubuntu/workspace/node_modules/.bin/tig-config is under /home/ubuntu/workspace
+193 verbose gentlyRm vacuuming from /home/ubuntu/workspace/node_modules/.bin/tig-config up to /home/ubuntu/workspace
+194 silly gentlyRm containing path /home/ubuntu/workspace is under npm's control, in /home/ubuntu/workspace
+195 silly gentlyRm deletion target /home/ubuntu/workspace/node_modules/.bin/tig-deploy is under /home/ubuntu/workspace
+196 verbose gentlyRm vacuuming from /home/ubuntu/workspace/node_modules/.bin/tig-deploy up to /home/ubuntu/workspace
+197 silly gentlyRm containing path /home/ubuntu/workspace is under npm's control, in /home/ubuntu/workspace
+198 silly gentlyRm deletion target /home/ubuntu/workspace/node_modules/.bin/tig-install is under /home/ubuntu/workspace
+199 verbose gentlyRm vacuuming from /home/ubuntu/workspace/node_modules/.bin/tig-install up to /home/ubuntu/workspace
+200 silly gentlyRm containing path /home/ubuntu/workspace is under npm's control, in /home/ubuntu/workspace
+201 silly gentlyRm deletion target /home/ubuntu/workspace/node_modules/.bin/tig-link is under /home/ubuntu/workspace
+202 verbose gentlyRm vacuuming from /home/ubuntu/workspace/node_modules/.bin/tig-link up to /home/ubuntu/workspace
+203 silly gentlyRm containing path /home/ubuntu/workspace is under npm's control, in /home/ubuntu/workspace
+204 silly gentlyRm deletion target /home/ubuntu/workspace/node_modules/.bin/tig-login is under /home/ubuntu/workspace
+205 verbose gentlyRm vacuuming from /home/ubuntu/workspace/node_modules/.bin/tig-login up to /home/ubuntu/workspace
+206 silly gentlyRm containing path /home/ubuntu/workspace is under npm's control, in /home/ubuntu/workspace
+207 silly gentlyRm deletion target /home/ubuntu/workspace/node_modules/.bin/tig-mesh is under /home/ubuntu/workspace
+208 verbose gentlyRm vacuuming from /home/ubuntu/workspace/node_modules/.bin/tig-mesh up to /home/ubuntu/workspace
+209 silly gentlyRm containing path /home/ubuntu/workspace is under npm's control, in /home/ubuntu/workspace
+210 silly gentlyRm deletion target /home/ubuntu/workspace/node_modules/.bin/tig-publish is under /home/ubuntu/workspace
+211 verbose gentlyRm vacuuming from /home/ubuntu/workspace/node_modules/.bin/tig-publish up to /home/ubuntu/workspace
+212 silly gentlyRm containing path /home/ubuntu/workspace is under npm's control, in /home/ubuntu/workspace
+213 silly gentlyRm deletion target /home/ubuntu/workspace/node_modules/.bin/tig-run is under /home/ubuntu/workspace
+214 verbose gentlyRm vacuuming from /home/ubuntu/workspace/node_modules/.bin/tig-run up to /home/ubuntu/workspace
+215 silly gentlyRm containing path /home/ubuntu/workspace is under npm's control, in /home/ubuntu/workspace
+216 silly gentlyRm deletion target /home/ubuntu/workspace/node_modules/.bin/tig-status is under /home/ubuntu/workspace
+217 verbose gentlyRm vacuuming from /home/ubuntu/workspace/node_modules/.bin/tig-status up to /home/ubuntu/workspace
+218 silly gentlyRm containing path /home/ubuntu/workspace is under npm's control, in /home/ubuntu/workspace
+219 silly gentlyRm deletion target /home/ubuntu/workspace/node_modules/.bin/tig-track is under /home/ubuntu/workspace
+220 verbose gentlyRm vacuuming from /home/ubuntu/workspace/node_modules/.bin/tig-track up to /home/ubuntu/workspace
+221 silly gentlyRm containing path /home/ubuntu/workspace is under npm's control, in /home/ubuntu/workspace
+222 silly gentlyRm deletion target /home/ubuntu/workspace/node_modules/.bin/tig-upgrade is under /home/ubuntu/workspace
+223 verbose gentlyRm vacuuming from /home/ubuntu/workspace/node_modules/.bin/tig-upgrade up to /home/ubuntu/workspace
+224 info postuninstall tig@0.1.43
+225 silly gentlyRm /home/ubuntu/workspace/node_modules/tig is being purged from base /home/ubuntu/workspace
+226 verbose gentlyRm don't care about contents; nuking /home/ubuntu/workspace/node_modules/tig
+227 silly vacuum-fs purging /home/ubuntu/workspace/node_modules/tig
+228 silly vacuum-fs quitting because other entries in /home/ubuntu/workspace/node_modules
