@@ -1,3 +1,3 @@
- import angular form 'angular';
- 
- angular.module('app', []);
+import angular from 'angular';
+
+angular.module('app', []);
