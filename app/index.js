@@ -14,4 +14,3 @@ const ngModule = angular
           home, 
           github
         ])
-        .config(routing);
